@@ -1,3 +1,10 @@
 h1{color: blue}
 h2 {color: white}
-body {background-color: pink;}
+body {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This page has a pink background.</p>
