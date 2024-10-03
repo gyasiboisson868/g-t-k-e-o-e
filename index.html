@@ -5,7 +5,17 @@
 <title>Hello World</title>
 </head>
 <body>
-<h1>Getting To Know Eachother - Gyasi Boisson</h1>
+ <h1 class="clickable" id="title">Getting To Know Eachother- Gyasi Boisson</h1>
+
+    <script>
+        const title = document.getElementById('title');
+
+        title.addEventListener('click', function() {
+            // Change color to a specific color (e.g., blue)
+            title.style.color = '#87CEEB';
+        });
+    </script>
+
 <link rel="stylesheet" href="hello-world.css">
 <h2>Version 2</h2>
 <h1>Lewis Email</h1> gyasifboisson@lewisu.edu
@@ -28,3 +38,22 @@ I hope to have a better understanding of programming.
 <div>
 <a href="www.linkedin.com/in/gyasi-boisson-3156ab290" target="_blank">LinkedIn</a>
 </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Title Color</title>
+    <style>
+        .clickable {
+            cursor: pointer;
+            font-size: 36px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+   
+</body>
+</html>
